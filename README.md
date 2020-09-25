@@ -1,3 +1,5 @@
+![demo](demo.png)
+
 # Querying multiple mongo collections in express [Relationship in MongoDB] 
 
 > This Project consists of Querring mongoDB collections with a single HTTP verb in a scenario known as relationship in MongoDB. For this particular Project, there is a Post and the author of that particular post. So when one wants to querry a particular post, the details of the post author nedds to be fetched from a particular collection and attached to the post. 
