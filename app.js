@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 
-mongoose.connect('mongodb://mean123:mean123@cluster0-shard-00-00.lrc9z.mongodb.net:27017,cluster0-shard-00-01.lrc9z.mongodb.net:27017,cluster0-shard-00-02.lrc9z.mongodb.net:27017/odongmongodb?ssl=true&replicaSet=atlas-wmahz9-shard-0&authSource=admin&retryWrites=true&w=majority', {
+mongoose.connect('mongodb://mean123:<pw>@cluster0-shard-00-00.lrc9z.mongodb.net:27017,cluster0-shard-00-01.lrc9z.mongodb.net:27017,cluster0-shard-00-02.lrc9z.mongodb.net:27017/<dbname>?ssl=true&replicaSet=atlas-wmahz9-shard-0&authSource=admin&retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
